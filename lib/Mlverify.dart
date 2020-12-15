@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:jansuvidha/sign_in.dart';
 import 'package:tflite/tflite.dart';
-
+//import 'package:google_fonts/google_fonts.dart';
+//import 'package:jansuvidha/scratchcard.dart';
 class Ml extends StatefulWidget {
   @override
   _Ml createState() => _Ml();
@@ -29,9 +30,6 @@ class _Ml extends State<Ml> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Teachable Machine Learning'),
-      ),
       body: _loading
           ? Container(
         alignment: Alignment.center,
@@ -59,7 +57,7 @@ class _Ml extends State<Ml> {
                     background: Paint()..color = Colors.white,
                   ),
                 )
-    )
+            )
                 : Container(),
 
           ],
