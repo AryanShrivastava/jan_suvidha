@@ -72,6 +72,8 @@ flutter:
     - images/report12.png
     - images/detect12.png
     - images/MLpot.jpg
+    - images/MLanimal.jpg
+    - images/MLaccident.jpg
     - assets/model_unquant.tflite
     - assets/labels.txt
     - assets/model_unquant_accident.tflite

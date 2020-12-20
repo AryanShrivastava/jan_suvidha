@@ -33,7 +33,7 @@ class _Ml extends State<Ml> {
   @override
   int currentPage = 0;
   Widget imageCarousel = new Container(
-      height: 220.0,
+      height: 240.0,
       child: new Carousel(
         boxFit: BoxFit.cover,
         images: [
@@ -54,6 +54,7 @@ class _Ml extends State<Ml> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: ListView(children: <Widget>[
+        SizedBox(height: 10),
         imageCarousel,
         SizedBox(height: 10),
         Container(
@@ -82,7 +83,7 @@ class _Ml extends State<Ml> {
                     left: 12.0, top: 180.0, right: 2.0, bottom: 5.0),
                 decoration: BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage("images/sepmcard1.jpg"),
+                    image: AssetImage("images/MLpot.jpg"),
                     fit: BoxFit.cover,
                     alignment: Alignment.topCenter,
                   ),
