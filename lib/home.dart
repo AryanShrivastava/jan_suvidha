@@ -26,6 +26,7 @@ class _TabScreen1 extends State<TabPage1> {
               tabs: [
                 Tab(icon: Icon(Icons.home)),
                 Tab(icon: Icon(Icons.restaurant)),
+            Tab(icon: Icon(Icons.laptop_chromebook)),
               ],
             ),
             backgroundColor: Color(0xff2c7744),

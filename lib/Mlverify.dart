@@ -38,11 +38,11 @@ class _Ml extends State<Ml> {
         boxFit: BoxFit.cover,
         images: [
           NetworkImage(
-              'https://thumbs.dreamstime.com/z/cartoon-people-fixing-hole-highway-industrial-city-roadwork-banner-repair-equipment-heavy-machinery-working-pothole-169603809.jpg'),
+              'https://st3.depositphotos.com/1005979/18633/i/600/depositphotos_186339762-stock-photo-pothole-tire-wheel-damage-road.jpg'),
           NetworkImage(
-              'https://thumbs.dreamstime.com/z/car-highway-falling-asphalt-hole-cartoon-man-looking-shock-automobile-pothole-accident-cityscape-backdrop-flat-193690324.jpg'),
+              'https://image.shutterstock.com/image-vector/car-wheel-fell-into-pit-260nw-1491691268.jpg'),
           NetworkImage(
-              'https://media.istockphoto.com/vectors/gift-card-with-blue-bow-vector-id1179439557?k=6&m=1179439557&s=612x612&w=0&h=Gj7OWfomEmRDIZZ_DbA15QImyDaW7-G0DW0AA89G6HY='),
+              'https://i.pinimg.com/originals/60/b3/7d/60b37daaedeaf89b6c886cc294ff1634.jpg'),
         ],
         showIndicator: false,
         animationCurve: Curves.fastOutSlowIn,
