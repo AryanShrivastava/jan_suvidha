@@ -43,21 +43,45 @@ class _TabScreen1 extends State<Page1> {
             children: <Widget>[
               imageCarousel,
               SizedBox(height: 10),
-              RaisedButton(
-                  onPressed: () {
+              Container(
+                decoration: new BoxDecoration(
+                  border: Border.all(color: Colors.black, width: 4),
+                  color: Colors.purple,
+                  gradient: new LinearGradient(
+                    colors: [Colors.blue, Colors.redAccent],
+                  ),
+                  boxShadow: [
+                    new BoxShadow(
+                      color: Color(0xff514a9d),
+                      offset: new Offset(20.0, 30.0),
+                      blurRadius: 40.0,
+                    )
+                  ],
+                ),
+                height: 250,
+                width: 350,
+                child: new InkWell(
+                  onTap: () {
                     Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                            builder: (context) => Ml()));
+                        context, MaterialPageRoute(builder: (context) => Ml()));
                   },
-                  child: Text(
-                  "ML model",
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 20.0,
-                      background: Paint()..color = Colors.white,
+                  child: Card(
+                    elevation: 7.0,
+                    child: Container(
+                      padding: EdgeInsets.only(
+                          left: 12.0, top: 180.0, right: 2.0, bottom: 5.0),
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                          image: AssetImage("images/sepmcard1.jpg"),
+                          fit: BoxFit.cover,
+                          alignment: Alignment.topCenter,
+                        ),
+                      ),
+                      // child: Card1(),
                     ),
-                  )),
+                  ),
+                ),
+              ),
             ]),
       ),
     );
